@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-1: #202020;
+  --color-2: #2D2D2D;
+  --color-3: #1E1E1E;
+  --color-4: #0B0B0B;
+  --color-5: #777777;
+  --color-6: #FFFFFF;
+  --color-7: #3F5BF2;
+  --color-8: #90EF46;
+  --color-9: #F53558;
+}
+
+.dark-theme {
+  --app-background-color: var(--color-1);
+  --outline-color: var(--color-4);
+  --sidebar-background-color: var(--color-3);
+  --sidebar-icon-normal-color: var(--color-5);
+  --sidebar-icon-selected-color: var(--color-6);
+  --selected-indicator-color: var(--color-6);
+  --text-color: var(--color-6);
+
+  color: var(--text-color);
+}
+
